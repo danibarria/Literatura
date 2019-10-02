@@ -1,1 +1,86 @@
+Tip 3 : Provide options, don't make lame excuses
+Tip 4 : Don't live with broken windows
+Tip 5 : Be a Catalyst for change 
 
+Sustantivo
+1
+a substance that increases the rate of a chemical reaction without itself undergoing 
+any permanent chemical change.
+The key tools will be new breeds of enzymes - 
+protein catalysts that speed up chemical reactions in cells.
+
+Tip 6: Remember the big picture
+Tip 7: Make quality a requirement issue
+Tip 8: Invest regulary in your knowledge portfolio
+
+Goals 
+    learn at least one new language every year 
+    read a technical book each quarter (read a book a month )
+    read non-technical book too
+    take classes 
+    participate in local user groups
+    experiment with different enviroments 
+    stay current (magazines like techcrunch)
+    get wired (news groups)
+
+Tip 9: Critically analyze what you read and hear
+
+
+Communicate! 
+list of ideas that are useful
+    know what you want to say 
+    know your audience
+    choose your moment
+    choose a style
+    make it look good
+    involve your audience
+    be a listener
+    get back to people
+
+wisdom acrostic
+                    What do you want them to learn ?
+      what is their Interest in what you've got to say? 
+                how Sophisticated are they ?
+           how much Detail do they want ?
+Whom do you want to Own the information
+        How can you Motivate them to listen to you?
+
+Tip 10: It's both what you say and the way you say it
+Tip 11: DRY --  Don't repeat yourself
+
+every piece of knowledge must have a single, unambigous, authoritative representation whitin a system 
+
+
+how does duplication arise ?
+imposed duplication: developers feel they have no choice -- the enviroment seems to require duplication
+inadvertent duplication: developers don't realize that they are duplicating information 
+impatient duplication: developers get lazy and duplicate because it seems easier
+interdeveloper duplication: multiple people on a team (or on diferent teams) duplicate piece of information 
+
+techniques to avoid imposed duplication
+    multiple representation of information
+
+Tip 12: Make it easy to reuse
+Tip 13: Eliminate effects between unrelated things 
+
+
+benefits of orthogonal systems : increase productivity and reduce risk
+
+choose your technologies wisely 
+(aparece RMI y CORBA)
+
+coding 
+    keep your code decoupled
+    avoid global data
+    avoid similar functions
+testing
+documentation
+
+Living with orthogonality
+is closely related to the DRY principle introduced on page 27
+
+
+9 Reversibility
+
+
+Tip 14: There are no final decisions     
