@@ -83,4 +83,29 @@ is closely related to the DRY principle introduced on page 27
 9 Reversibility
 
 
-Tip 14: There are no final decisions     
+Tip 14: There are no final decisions
+
+flexible architecture 
+
+10 Tracer bullets 
+
+Tip 15: Use tracer bullets to find the target
+
+11 Prototipes and post-it notes
+
+Tip 16: Prototype to learn
+
+How to use prototypes 
+when building a prototype, what details can you ignore?
+
+* Correctness : you may be able to use dummy data where appropriate
+* Completeness : The prototype may function only in a very limited sense, perhaps with only one preselected piece of input data and one menu item.
+* Robustness : Error checking is likely to be incomplete or missing entirely. If you stray from the predefined path, the prototype may crash and burn in a glorious display of pyrothecnics. That's okay.
+* Style : it is painful to admit this in print, but prototype code probably doesnt have much in the way to comments or documetnation. you may produce reams of documenetation as a result of your experience with the prototype. but comparatively very little on the prototype system itself
+
+Prototyping Architecture
+How [not] to use prototypes
+Domain Languages
+
+Tip 17: Program close to the problem Domain
+Tip 18: Estimate avoid surprises 
