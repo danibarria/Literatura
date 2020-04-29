@@ -121,3 +121,11 @@ Tip 18: Estimate avoid surprises
 Tip 19: Iterate the Schedule with the Code
 
 Chapter 3. The basic tools
+Tip 20: Keep Knowledge in plain text
+The Power of text
+* Insurance against obsolescence
+* Leverage
+* Easier testing
+
+Tip 21: Use the power of Command Shells
+Tip 22: Use a single Editor Well
