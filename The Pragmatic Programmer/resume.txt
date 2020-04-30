@@ -129,3 +129,29 @@ The Power of text
 
 Tip 21: Use the power of Command Shells
 Tip 22: Use a single Editor Well
+
+Source Code Control
+
+Tip 23: Always Use Source Code Control
+
+
+Debugging
+It is a painful thing 
+To look at your own trouble and know
+That you yourself and no one else has made it
+Sophocles, Ajax
+
+Tip 24: fix the problem, not the blame
+Tip 25: Don't panic
+
+We worked on a project where a senior engineer was convinced that the select system call
+was broken on Solaris. No amount of persuasion or logic could change his mind (the fact
+that every other networking application on the box worked fine was irrelevant). He spent
+weeks writing work-arounds, which, for some odd reason, didn't seem to fix the problem.
+When finally forced to sit down and read the documentation on select, he discovered the
+problem and corrected it in a matter of minutes. We now use the phrase "select is broken"
+as a gentle reminder whenever one of us starts blaming the system for a fault that is likely
+to be our own.
+
+Tip 26: Select Isn't Broken
+
