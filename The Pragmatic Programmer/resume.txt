@@ -154,4 +154,27 @@ as a gentle reminder whenever one of us starts blaming the system for a fault th
 to be our own.
 
 Tip 26: Select Isn't Broken
+Tip 27: Don't assume it, Prove it
+
+Debugging Checklist
+Is the problem being reported a direct result of the underlying bug, or merely a
+symptom?
+Is the bug really in the compiler? Is it in the OS? Or is it in your code?
+If you explained this problem in detail to a coworker, what would you say?
+If the suspect code passes its unit tests, are the tests complete enough? What
+happens if you run the unit test with this data?
+Do the conditions that caused this bug exist anywhere else in the system?
+
+Tip 28: Learn a Text Manipulation Language
+Tip 29: Write Code That Writes Code
+
+There are two main types of code generators:
+* Passive code generators are run once to produce a result. From that point
+forward, the result becomes freestanding—it is divorced from the code generator.
+The wizards discussed in Evil Wizards, along with some CASE tools, are examples
+of passive code generators.
+
+* Active code generators are used each time their results are required. The result is
+a throw-away—it can always be reproduced by the code generator. Often, active
+code generators read some form of script or control file to produce their results.
 
