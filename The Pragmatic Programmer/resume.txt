@@ -178,3 +178,31 @@ of passive code generators.
 a throw-away—it can always be reproduced by the code generator. Often, active
 code generators read some form of script or control file to produce their results.
 
+Chapter 4 Pragmatic Paranoia
+
+Tip 30
+You Can't Write Perfect Software
+
+Design by Contract
+Nothing astonishes men so much as common sense and plain dealing
+
+Preconditions. What must be true in order for the routine to be called; the
+routine's requirements. A routine should never get called when its preconditions
+would be violated. It is the caller's responsibility to pass good data (see the box on
+page 115).
+
+Postconditions. What the routine is guaranteed to do; the state of the world
+when the routine is done. The fact that the routine has a postcondition implies that
+it will conclude: infinite loops aren't allowed.
+
+Class invariants. A class ensures that this condition is always true from the
+perspective of a caller. During internal processing of a routine, the invariant may not
+hold, but by the time the routine exits and control returns to the caller, the invariant
+must be true. (Note that a class cannot give unrestricted write-access to any data
+member that participates in the invariant.)
+
+Tip 31
+Design with Contracts
+
+Tip 32
+Crash Early
